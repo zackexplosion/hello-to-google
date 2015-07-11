@@ -1,0 +1,1 @@
+console.log("'Allo 'Allo!");var to_google=function(){var o=$("#searchtext").val();o=encodeURIComponent(o),window.open("https://www.google.com.tw/?q="+o)};$(function(){$("form").on("submit",function(){to_google()}),$("#submit").on("click",function(o){to_google()})});
