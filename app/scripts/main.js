@@ -4,7 +4,7 @@ var to_google = function(){
     var q = $('#searchtext').val();
     q = encodeURIComponent(q);
     // window.open('https://google.com?q=' + q);
-    window.open('https://www.google.com.tw/?q=' + q);
+    window.open('https://www.google.com.tw/#q=' + q);
     // debugger;
 }
 
